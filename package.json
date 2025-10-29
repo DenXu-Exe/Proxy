@@ -1,0 +1,15 @@
+{
+  "name": "Proxy",
+  "version": "1.0.0",
+  "description": "Netlify proxy for Discord webhooks – bypass Delta Android security",
+  "main": "netlify/functions/webhook.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
